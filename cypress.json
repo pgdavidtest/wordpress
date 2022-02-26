@@ -1,5 +1,5 @@
 {
-    "baseurl": "https://wordpress.com",
+    "baseUrl": "https://wordpress.com/",
   "testFiles": "applicationSpecFiles/*.js",
   "supportFile": "cypress/support/index.js",
   "modifyObstructiveCode": true,

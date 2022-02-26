@@ -22,7 +22,7 @@ describe('Validate MyProfilePage', function () {
             this.aboutme = user.aboutme;
             this.url = user.url;
             this.urldescription = user.urldescription;
-            cy.visit('https://wordpress.com')
+            cy.visit('/')
 
         });
     });
