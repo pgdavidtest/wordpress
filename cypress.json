@@ -1,0 +1,18 @@
+{
+    "baseurl": "https://wordpress.com",
+  "testFiles": "applicationSpecFiles/*.js",
+  "supportFile": "cypress/support/index.js",
+  "modifyObstructiveCode": true,
+  "experimentalSessionSupport": true,
+  "experimentalStudio": true,
+  "include": ["./node_modules/cypress", "cypress/**/*.js"],
+  "experimentalDecorators": true,
+  "redirectionLimit": 100,
+  "video": false,
+  "retries": {
+    "runMode": 1,
+    "openMode": 1
+  },
+  "defaultCommandTimeout": 5000
+ 
+}
